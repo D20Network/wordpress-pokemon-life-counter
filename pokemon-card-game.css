@@ -1,0 +1,70 @@
+#pokemon-card-game {
+    background: #3b4cca;
+    color: #ffcb05;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#pokemon-card-game h1 {
+    font-size: 2em;
+}
+
+#pokemon-card-game .player {
+    margin-bottom: 20px;
+}
+
+#pokemon-card-game .pokemon {
+    border: 1px solid #ffcb05;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#pokemon-card-game .life-counter, 
+#pokemon-card-game .damage-counter, 
+#pokemon-card-game .status-conditions {
+    margin-bottom: 10px;
+}
+
+#pokemon-card-game .life-display,
+#pokemon-card-game .damage-display {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#pokemon-card-game button {
+    background: #ffcb05;
+    color: #3b4cca;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pokemon-card-game button:hover {
+    background: #fff;
+}
+
+#pokemon-card-game .condition {
+    margin-bottom: 5px;
+}
+
+#pokemon-card-game .condition span {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #pokemon-card-game {
+        padding: 10px;
+    }
+
+    #pokemon-card-game button {
+        padding: 5px 10px;
+        margin: 3px;
+    }
+}
